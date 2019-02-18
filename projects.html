@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>Erinc</title>
+		<meta name="description" content="Examples for creative website header animations using Canvas and JavaScript" />
+		<meta name="keywords" content="header, canvas, animated, creative, inspiration, javascript" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+        <link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
+        <script>
+            function redirectTo(url) {
+                window.open(url, '_blank');          
+            }
+        </script>
+		<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+    </head>
+    <body>
+        <div class="container demo-1">
+            <div class="content">
+                <div id="large-header" class="large-header">
+                    <canvas id="demo-canvas"></canvas>
+                    <h1 class="title thin">Projects</h1>
+                    <div class="content-grid">
+                        <div class="project">
+                            <p>Simple HTTP Server</p>
+                            <hr>
+                            <p class="project-explanation">A simple multithreaded HTTP Server similar to HTTP 0.9, implemented with
+                                    Java for “Computer Networks” course. I have learned about the principles of ports and sockets as well as the 
+                                    mechanism of servers and basics of HTTP protocol.
+                            </p>
+                        </div>
+                        <div class="project">
+                            <p>Ozu Course Rating</p>
+                            <hr>
+                            <p class="project-explanation"> 
+                                    Led a team of 5 developers to build a website that allows the students 
+                                    of Ozyegin University to evaluate the courses they have taken and see the others’ comments. 
+                                    Used Vue.js for the Front-End along with Bootstrap. I got more comfortable with Vue in this 
+                                    project. Also learned about Firebase Cloud technologies and how to fetch and put data to cloud with JS.
+                            </p> 
+                        </div>
+                        <div class="project">
+                            <p>D8 Games Web</p>
+                            <hr>
+                            <div class="project-explanation">
+                                    Developed a game development startup's website in a team of 3 developers. 
+                                    Used Vue.js for the front-end, Hibernate and Spring for the
+                                    back-end of the project along with a MySQL database. This was my first real web project in the 
+                                    summer after Sophomore year. Learned about the modern web architecture, what backend and frontend is 
+                                    and how to connect them. Also got familiar with the Hibernate and Spring boot.
+                            </div>
+                        </div>
+                        <div class="project">
+                            <p>Coming Soon!</p>
+                            <hr>
+                            <p class="project-explanation"> 
+                                Secret Project <br>
+                                <br>
+                                In progress.
+                            </p>
+                        </div>
+                    </div>
+                        <hr class="divider">
+                        <div class="topics">
+                            <a href="./index.html">Home</a>
+                            <a href="./courses.html">Courses Taken</a>
+                            <a href="./projects.html">Projects</a>
+                            <a href="./contact.html">Contact</a>
+                        </div>
+                </div>
+            </div>
+            <p class="ref">Image credits: <a href="http://www.eso.org/public/images/eso1205a/">ESO/VISTA/J. Emerson. Acknowledgment: Cambridge Astronomical Survey Unit</a></p>
+            </div><!-- /container -->
+            
+            <script src="js/TweenLite.min.js"></script>
+            <script src="js/EasePack.min.js"></script>
+            <script src="js/rAF.js"></script>
+            <script src="js/demo-1.js"></script>   
+ </body>
+</html>

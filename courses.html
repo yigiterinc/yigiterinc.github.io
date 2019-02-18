@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>Erinc</title>
+		<meta name="description" content="Examples for creative website header animations using Canvas and JavaScript" />
+		<meta name="keywords" content="header, canvas, animated, creative, inspiration, javascript" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+        <link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+        <script>
+            function redirectTo(url) {
+                window.open(url, '_blank');
+            }
+        </script>
+
+        <audio preload="auto" autoplay>
+            <source src="Star Wars Theme Song By John Williams.mp3" type="audio/mpeg">
+        </audio>
+		<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+    </head>
+    
+    <body>
+        <audio preload="auto" autoplay>
+                <source src="Star Wars Theme Song By John Williams.mp3" type="audio/mpeg">
+        </audio>   
+
+        <div class="container demo-1">
+            <div class="content">
+                <div id="large-header" class="large-header">
+                    <canvas id="demo-canvas"></canvas>
+                    <section class="intro">
+                            A long time ago, in a galaxy far,<br> far away...
+                    </section>  
+                    <div id="board">  
+                            <div id="content">
+                              <p id="title">Episode I</p>
+                              <p id="subtitle">RETURN OF THE CODER</p>
+                              <br>
+                              <p>Turmoil has engulfed the Galactic Republic as Yigit Erinc
+                                   finishes studying to become a master in his trade.</p>    
+                                <p>CS 101 - Introduction to Programming</p>
+                                <p>CS 102 - Object Oriented Programming</p>
+                                <p>CS 201 - Data Structures and Algorithms</p>
+                                <p>CS 202 - Database Management Systems</p>
+                                <p>EE 203 - Digital Systems</p>
+                                <p>CS 222 - Programming Studio (Clean Coding)</p>
+                                <p>CS 240 - Computer Architecture</p>
+                                <p>CS 320 - Software Engineering</p>
+                                <p>CS 321 - Programming Languages</p>
+                                <p>CS 447 - Computer Networks</p>
+                                <p>CS 333 - Analysis of Algorithms</p>
+                                <p>CS 350 - Operating Systems</p> 
+                                <p>CS 399 - Communication Security</p>
+                                <p>CS 468 - Contemporary Topics in Networking</p>    
+                            </div>  
+                    </div>
+                    <div class="delayedShow">
+                        <hr class="divider">
+                        <div class="topics">
+                            <a href="./index.html">Home</a>
+                            <a href="./courses.html">Courses Taken</a>
+                            <a href="./projects.html">Projects</a>
+                            <a href="./contact.html">Contact</a>
+                        </div>    
+                    </div>                  
+                </div>
+                </div>
+                <p class="ref">Image credits: <a href="http://www.eso.org/public/images/eso1205a/">ESO/VISTA/J. Emerson. Acknowledgment: Cambridge Astronomical Survey Unit</a></p>
+            </div><!-- /container -->
+                
+                <script src="js/TweenLite.min.js"></script>
+                <script src="js/EasePack.min.js"></script>
+                <script src="js/rAF.js"></script>
+                <script src="js/demo-1.js"></script>      
+    </body>
+    </html>
